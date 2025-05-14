@@ -6,16 +6,37 @@
     font-family: "Playfair Display", serif;
   }
   
+  .supermáquina{
+    background-image: url(img/fundosupermaquina.jpg);
+  }
+
+  .properigo{ 
+    background-image: url(img/fundoprofperigo2.jpg);
+  }
+
+  .classea{
+    background-image: url(img/fundoclassea.webp)
+  }
+
+  .aguiafire{
+    background-image: url(img/fundoaguia2.jpg);
+  }
+
+  .azulthunder{
+    background-image: url(img/trovaoazul1.webp);
+  }
+  
   body {
     font-family: "Playfair Display", serif;
     line-height: 1.6;
-    background-color: #000000;
+    background-color: #ac3434;
     color: #ffffff;
     padding-bottom: 50px;
+    background-image: url(img/fundo\ index.gif);
   }
   
   header {
-    background-color: #111;
+    background-color: #000000;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -50,9 +71,28 @@
     text-align: center;
   }
   
+  .resumou{
+    display: block;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0 10px 25px rgb(0, 0, 0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    background-color: #00111100;
+
+  }
+
+  .resumou p{
+    color: #fffafa;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+
   h2 {
-    color: #222;
+    color: #faf9fdd8;
     margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
   }
   
   .img-grid {
